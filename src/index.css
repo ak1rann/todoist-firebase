@@ -1,0 +1,24 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.loader div {
+  animation: loading infinite 1s linear;
+}
+
+::-webkit-scrollbar {
+  display: none;
+}
+
+.theme_dark .loading_screen--logo .logo_bg {
+  fill: hsla(0, 0%, 100%, 0.87);
+}
+.theme_dark .loading_screen--logo .logo_stripe {
+  fill: #1f1f1f;
+}
+.theme_dark .loading_screen--spinner .ring_thumb {
+  fill: hsla(0, 0%, 100%, 0.87);
+}
+.theme_dark .loading_screen--spinner .ring_track {
+  fill: hsla(0, 0%, 100%, 0.4);
+}
